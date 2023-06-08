@@ -56,6 +56,7 @@
       }
   
       console.log(username, password);
+
       $.ajax({
         type: "POST",
         url: "/sign_in",
@@ -195,6 +196,8 @@
           .removeClass("is-danger")
           .addClass("is-success");
       }
+
+      
       $.ajax({
         type: "POST",
         url: "/sign_up/save",
@@ -289,6 +292,8 @@
                   </p>
                 </div>
               </div>
+
+              <!-- aaaaaaa -->
               <div id="div-sign-in-or-up" class="has-text-centered">
                 <nav class="level is-mobile">
                   <button
@@ -313,6 +318,7 @@
                 </nav>
               </div>
 
+              <!-- aaaaaaa -->
               <div id="sign-up-box" class="is-hidden">
                 <div class="mb-5">
                   <div class="field">
